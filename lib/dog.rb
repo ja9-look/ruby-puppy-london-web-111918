@@ -7,11 +7,11 @@ class Dog
     @@all << self
   end
   
-  def all
-    puts @@all.self
+  def self.all
+    puts @@all
   end
   
-  def clear_all
+  def self.clear_all
     @@all.clear
   end
 end
