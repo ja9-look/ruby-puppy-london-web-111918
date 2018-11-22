@@ -12,7 +12,7 @@ class Dog
   end
   
   def self.all
-    puts @@all.self.name
+    return @@all.name
   end
   
   def self.clear_all
